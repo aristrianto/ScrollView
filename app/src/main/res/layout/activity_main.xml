@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@color/purple_700"
+        android:padding="15dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="20dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="30dp"
+        android:text="Beatles Anthology Vol.1"
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="30dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/subheading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Behind That Locked Door, Beatles Rarities!"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/article"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="&quot;Behind That Locked Door&quot; is a song by English rock musician George Harrison from his 1970 triple album All Things Must Pass. Harrison wrote the song in August 1969 as a message of encouragement to Bob Dylan, who was making a highly publicised comeback to the concert stage, accompanied by the Band, with a headlining performance at the Isle of Wight Festival. &quot;Behind That Locked Door&quot; is a rare Harrison composition in the country music genre and the second song dealing with the friendship between himself and Dylan, after their 1968 collaboration &quot;I'd Have You Anytime&quot;. Its lyrics address Dylan's elusive nature, and reflect the high regard in which Harrison held the American singer's work. The same reluctance on Dylan's part to re-engage with a concert audience led to him retreating again from live performance until August 1971, when he responded to Harrison's request to play at the Concert for Bangladesh.  Harrison recorded &quot;Behind That Locked Door&quot; in London early in the summer of 1970, shortly after taking part in a session for Dylan's New Morning album in New York. Co-produced by Phil Spector, the recording features a prominent contribution from Nashville pedal steel virtuoso Pete Drake, and twin keyboard parts from Gary Wright and Billy Preston in the tradition of the Band, whose sound influenced Harrison's arrangement. With its understated performance, the track is a comparatively rare departure from the big production commonly associated with All Things Must Pass. On release, Alan Smith of the NME described the song as &quot;a tremendous piece of country-meets-Hawaii&quot; and recommended that it be sent to country singer Slim Whitman &quot;without further delay&quot;.[1]  An alternate take of &quot;Behind That Locked Door&quot; appears on the 2012 Harrison compilation Early Takes: Volume 1. Olivia Newton-John, Jim James, the Felice Brothers and Norah Jones are among the artists who have covered the song." />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
